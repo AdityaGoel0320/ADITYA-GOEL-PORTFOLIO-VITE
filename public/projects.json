@@ -1,10 +1,14 @@
 [
-    {
-      "id": 1,
-      "title": "Finance",
-      "category": "Web development",
-      "image": "images/project-1.jpg"
-    },
+  {
+    "id": 1,
+    "title": "Finance",
+    "category": "Web development",
+    "image": "images/project-1.jpg",
+    "tech": ["Reactjs", "Tailwindcss"],
+    "github": "",
+    "liveLink": ""
+  }  , 
+  
     {
       "id": 2,
       "title": "Orizon",

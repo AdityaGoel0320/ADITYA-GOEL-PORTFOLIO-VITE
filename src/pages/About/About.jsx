@@ -3,6 +3,9 @@
 import { useEffect, useState } from "react"
 import Testimonial from "./Testimonial";
 import Service from "./Service";
+// import SkillArr from "../../assets/Arr/";
+import SkillCard from "./SkillCard";
+import { arr } from "../../assets/Arr";
 
 // const servicesData = [
 //   {
@@ -31,7 +34,7 @@ import Service from "./Service";
 
 
 const servicesData = [
-  
+
   {
     icon: "/images/icon-dev.svg",
     title: "Web development",
@@ -42,7 +45,7 @@ const servicesData = [
     title: "Mobile apps",
     description: "Learning Professional development of applications for iOS and Android."
   },
-  
+
 ];
 
 const About = () => {
@@ -126,9 +129,9 @@ const About = () => {
       - clients
     --> */}
 
-      <section className="clients">
+      {/* <section className="clients">
 
-        <h3 className="h3 clients-title">Skills</h3>
+        <h3 className="h3 clients-title">Clients</h3>
 
         <ul className="clients-list has-scrollbar">
 
@@ -169,6 +172,105 @@ const About = () => {
           </li>
 
         </ul>
+
+      </section> */}
+
+
+
+
+
+      <section className="clients">
+
+        <h3 className="h3 clients-title">Skills</h3>
+
+        <br />
+        <h3 className="h4 ">Front-End</h3>
+        <br />
+        <div className="skillsArrange">
+
+          {arr
+            .filter((x) => x.type === "Frontend")
+            .map((x, index) => (
+              <SkillCard key={index} className="" name={x.name} img={x.img} />
+            ))}
+        </div>
+
+
+<br />
+<br />
+
+        <h3 className="h4 ">Back-End</h3>
+        <br />
+        <div className="skillsArrange">
+
+
+          {arr
+            .filter((x) => x.type === "Backend")
+            .map((x, index) => (
+              <SkillCard key={index} className="" name={x.name} img={x.img} />
+            ))}
+        </div>
+
+
+<br />
+<br />
+
+        <h3 className="h4 ">Other</h3>
+        <br />
+        <div className="skillsArrange">
+
+
+          {arr
+            .filter((x) => x.type === "Other")
+            .map((x, index) => (
+              <SkillCard key={index} className="" name={x.name} img={x.img} />
+            ))}
+
+        </div>
+
+
+
+        {/* <ul className="clients-list ">
+
+
+
+          <li className="clients-item">
+            <a href="#">
+              <img src="images/logo-1-color.png" alt="client logo" />
+            </a>
+          </li>
+
+          <li className="clients-item">
+            <a href="#">
+              <img src="images/logo-2-color.png" alt="client logo" />
+            </a>
+          </li>
+
+          <li className="clients-item">
+            <a href="#">
+              <img src="images/logo-3-color.png" alt="client logo" />
+            </a>
+          </li>
+
+          <li className="clients-item">
+            <a href="#">
+              <img src="images/logo-4-color.png" alt="client logo" />
+            </a>
+          </li>
+
+          <li className="clients-item">
+            <a href="#">
+              <img src="images/logo-5-color.png" alt="client logo" />
+            </a>
+          </li>
+
+          <li className="clients-item">
+            <a href="#">
+              <img src="images/logo-6-color.png" alt="client logo" />
+            </a>
+          </li>
+
+        </ul> */}
 
       </section>
 

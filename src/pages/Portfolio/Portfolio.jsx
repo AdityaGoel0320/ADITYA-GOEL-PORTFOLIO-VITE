@@ -1,4 +1,4 @@
-import  { useState, useEffect } from 'react';
+import { useState, useEffect } from 'react';
 import { FaRegEye } from 'react-icons/fa';
 
 const Portfolio = () => {
@@ -62,20 +62,38 @@ const Portfolio = () => {
               data-category={project.category}
               key={project.id}
             >
-              <a target  = "_blank" href="" >
+              <a target="_blank" href="">
                 <figure className="project-img">
                   <div className="project-item-icon-box">
-                    <FaRegEye />
+                    {/* <FaRegEye /> */}
+                    {/* <h1>Hello</h1> */}
+                    <i className="fa-brands fa-github"></i>
+                    <i className="fa-solid fa-link"></i>
                   </div>
+
                   <img src={project.image} alt={project.title} loading="lazy" />
                 </figure>
                 <h3 className="project-title">{project.title}</h3>
-                <p className="project-category">{project.category}</p>
+                {/* <p className="project-category">{project.category}</p> */}
+                <div className="project-category">
+                  {Array.isArray(project.tech) ? (
+                    project.tech.map((tech, index) => (
+                      <span key={index} className="tech-item">
+                        {tech.trim()}
+                      </span>
+                    ))
+                  ) : (
+                    <span className="tech-item">
+                      {project.tech}
+                    </span>
+                  )}
+                </div>
               </a>
             </li>
           ))}
         </ul>
       </section>
+
     </section>
   );
 };
