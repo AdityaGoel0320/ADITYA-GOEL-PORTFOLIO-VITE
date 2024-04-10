@@ -6,6 +6,8 @@ import Service from "./Service";
 // import SkillArr from "../../assets/Arr/";
 import SkillCard from "./SkillCard";
 import { arr } from "../../assets/Arr";
+import Socials from "../../components/Socials";
+import Skills from "../../components/Skills";
 
 // const servicesData = [
 //   {
@@ -65,17 +67,18 @@ const About = () => {
 
       <section className="about-text">
         <p>
-          <strong>Aditya Goel</strong>, currently pursuing <strong>B.Tech</strong> in Information Technology at <strong>Maharaja Agrasen Institute of Technology, Delhi</strong>. Specializing in <strong>MERN stack</strong> for full-stack web development and proficient in <strong>Java coding</strong>.Possessing  <strong> industry-level experience </strong> from a <strong>4-month internship</strong> in a <strong> startup </strong>, I contributed to the development of a web application. As a <strong>fervent learner</strong> and advocate for <strong> acquiring new skills </strong> through project work, I am <strong> enthusiastic </strong>about exploring and collaborating on innovative
-          opportunities in the field.
-
+          <strong>Aditya Goel</strong>, currently pursuing <strong>B.Tech</strong> in Information Technology at <strong>Maharaja Agrasen Institute of Technology, Delhi</strong>. Proficient in <strong>MERN stack</strong> for full-stack web development and skilled in <strong>Java coding</strong>. With <strong>industry-level experience</strong> gained from a <strong>4-month internship</strong> at a <strong>startup</strong>, I actively contributed to the development of a web application. As a <strong>keen learner</strong> always eager to <strong>acquire new skills</strong> through hands-on projects, I am enthusiastic about exploring and collaborating on innovative opportunities in the field.
         </p>
-
-        <p>I enjoy creating websites with an emphasis on <strong>functionality</strong>, <strong>user-friendliness</strong>, and <strong>visual appeal</strong>. Additionally, I inject a <strong>personal touch</strong> into each project to ensure it's both <strong>engaging</strong> and <strong>user-friendly</strong>. My objective is to convey your <strong>message</strong> and <strong>identity</strong> in a highly <strong>creative</strong> manner. I have a track record of designing websites for numerous <strong>well-known brands</strong>.</p>
-
-
-
+        <p>
+          I take pleasure in crafting websites that prioritize <strong>functionality</strong>, <strong>user-friendliness</strong>, and <strong>visual appeal</strong>. Each project I undertake is imbued with a <strong>personal touch</strong> to ensure it's both <strong>engaging</strong> and <strong>user-friendly</strong>. My objective is to effectively communicate your <strong>message</strong> and <strong>brand identity</strong> in a highly <strong>creative</strong> manner. I have a proven track record of designing websites for numerous <strong>well-known brands</strong>.
+        </p>
       </section>
 
+
+
+
+
+      <Socials />
 
       {/* <!--
       - service
@@ -179,100 +182,7 @@ const About = () => {
 
 
 
-      <section className="clients">
-
-        <h3 className="h3 clients-title">Skills</h3>
-
-        <br />
-        <h3 className="h4 ">Front-End</h3>
-        <br />
-        <div className="skillsArrange">
-
-          {arr
-            .filter((x) => x.type === "Frontend")
-            .map((x, index) => (
-              <SkillCard key={index} className="" name={x.name} img={x.img} />
-            ))}
-        </div>
-
-
-<br />
-<br />
-
-        <h3 className="h4 ">Back-End</h3>
-        <br />
-        <div className="skillsArrange">
-
-
-          {arr
-            .filter((x) => x.type === "Backend")
-            .map((x, index) => (
-              <SkillCard key={index} className="" name={x.name} img={x.img} />
-            ))}
-        </div>
-
-
-<br />
-<br />
-
-        <h3 className="h4 ">Other</h3>
-        <br />
-        <div className="skillsArrange">
-
-
-          {arr
-            .filter((x) => x.type === "Other")
-            .map((x, index) => (
-              <SkillCard key={index} className="" name={x.name} img={x.img} />
-            ))}
-
-        </div>
-
-
-
-        {/* <ul className="clients-list ">
-
-
-
-          <li className="clients-item">
-            <a href="#">
-              <img src="images/logo-1-color.png" alt="client logo" />
-            </a>
-          </li>
-
-          <li className="clients-item">
-            <a href="#">
-              <img src="images/logo-2-color.png" alt="client logo" />
-            </a>
-          </li>
-
-          <li className="clients-item">
-            <a href="#">
-              <img src="images/logo-3-color.png" alt="client logo" />
-            </a>
-          </li>
-
-          <li className="clients-item">
-            <a href="#">
-              <img src="images/logo-4-color.png" alt="client logo" />
-            </a>
-          </li>
-
-          <li className="clients-item">
-            <a href="#">
-              <img src="images/logo-5-color.png" alt="client logo" />
-            </a>
-          </li>
-
-          <li className="clients-item">
-            <a href="#">
-              <img src="images/logo-6-color.png" alt="client logo" />
-            </a>
-          </li>
-
-        </ul> */}
-
-      </section>
+      <Skills />
 
     </article>
   )

@@ -18,9 +18,9 @@ const Contact = () => {
 
       <section className="contact-form">
 
-        {/* <h3 className="h3 form-title">Contact Form</h3> */}
+        <h3 className="h3 form-title">Contact Form</h3>
 
-        <form action="#" className="form" data-form>
+        <form action="https://formspree.io/f/xwkgwbow" method = "POST" className="form" data-form>
 
           <div className="input-wrapper">
             <input type="text" name="fullname" className="form-input" placeholder="Full name" required data-form-input />
@@ -32,7 +32,7 @@ const Contact = () => {
 
           <button className="form-btn" type="submit" data-form-btn>
             <ion-icon name="paper-plane"></ion-icon>
-            <span>Send Message</span>
+            <span>Send Message (It actually send me the message) </span>
           </button>
 
         </form>

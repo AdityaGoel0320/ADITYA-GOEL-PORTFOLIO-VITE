@@ -1,67 +1,79 @@
 import { GiCalendar, GiClawSlashes, GiMailbox, GiMayanPyramid, GiPhone } from "react-icons/gi";
-import { Address, Birthday, Phone, email } from "../assets/FrontEndUtils";
+import { Address, Birthday, Phone, Resume, email } from "../assets/FrontEndUtils";
 
 const Aside = () => {
   return (
     <aside className="sidebar">
-        <div className="sidebar-info">
-          <figure className="avatar-box">
-            <img
-              src={"/images/profile.png"}
-              alt="Richard hanrick"
-              width="80"
-            />
-          </figure>
+      <div className="sidebar-info">
+        <figure className="avatar-box">
+          <img
+            src={"/images/profile.png"}
+            alt="Aditya Goel"
+            width="80"
+          />
+        </figure>
 
-          <div className="info-content">
-            <h1 className="name" title="Richard hanrick">
-             Aditya Goel
-            </h1>
+        <div className="info-content">
+          <h1 className="name" title="Richard hanrick">
+            Aditya Goel
+          </h1>
 
-            <p className="title">Mern Web developer</p>
-          </div>
-
-          <button className="info_more-btn" data-sidebar-btn>
-            <span>Show Contacts</span>
-
-            <GiClawSlashes />
-          </button>
+          <p className="title">Mern Web developer</p>
         </div>
 
-        <div className="sidebar-info_more">
-          <div className="separator"></div>
 
-          <ul className="contacts-list">
-            <li className="contact-item">
-              <div className="icon-box">
-                <GiMailbox/>
-                
-              </div>
+      </div>
 
-              <div className="contact-info">
-                <p className="contact-title">Email</p>
+      <div className="sidebar-info_more">
+        <div className="separator"></div>
 
-                <a href="mailto:richard@example.com" className="contact-link">
-                  {email}
-                </a>
-              </div>
-            </li>
+        <ul className="contacts-list">
+          <li className="contact-item">
+            <div className="icon-box">
+              <GiMailbox />
 
-            <li className="contact-item">
-              <div className="icon-box">
-                <GiPhone/>
-              </div>
+            </div>
 
-              <div className="contact-info">
-                <p className="contact-title">Phone</p>
+            <div className="contact-info">
+              <p className="contact-title">Email</p>
 
-                <a href="tel:+12133522795" className="contact-link">
-                  {Phone}              
-                    </a>
-              </div>
-            </li>
+              <a href="mailto:richard@example.com" className="contact-link">
+                {email}
+              </a>
+            </div>
+          </li>
 
-            <li className="contact-item">
+          <li className="contact-item">
+            <div className="icon-box">
+              <GiMailbox />
+
+            </div>
+
+            <div className="contact-info">
+              <p className="contact-title">Resume</p>
+
+              <a href={Resume} target="_blank" className="contact-link">
+                Resume <i class="fa-solid fa-arrow-up-right-from-square"></i>
+              </a>
+            </div>
+          </li>
+
+
+          <li className="contact-item">
+            <div className="icon-box">
+              <GiPhone />
+            </div>
+
+            <div className="contact-info">
+              <p className="contact-title">Phone</p>
+
+              <a href="tel:+919773773473" className="contact-link">
+                {Phone}
+              </a>
+            </div>
+          </li>
+
+          {/* <li className="contact-item">
               <div className="icon-box">
                 <GiCalendar/>
                
@@ -72,45 +84,45 @@ const Aside = () => {
 
                 <time dateTime="1982-06-23">{Birthday}</time>
               </div>
-            </li>
+            </li> */}
 
-            <li className="contact-item">
-              <div className="icon-box">
-                <GiMayanPyramid/>
-                <ion-icon name="location-outline"></ion-icon>
-              </div>
+          <li className="contact-item">
+            <div className="icon-box">
+              <GiMayanPyramid />
+              <ion-icon name="location-outline"></ion-icon>
+            </div>
 
-              <div className="contact-info">
-                <p className="contact-title">Location</p>
+            <div className="contact-info">
+              <p className="contact-title">Location</p>
 
-                <address>{Address}</address>
-              </div>
-            </li>
-          </ul>
+              <address>{Address}</address>
+            </div>
+          </li>
+        </ul>
 
-          <div className="separator"></div>
+        <div className="separator"></div>
 
-          <ul className="social-list">
-            <li className="social-item">
-              <a href="#" className="social-link">
-                <ion-icon name="logo-facebook"></ion-icon>
-              </a>
-            </li>
+        <ul className="social-list">
+          <li className="social-item">
+            <a href="#" className="social-link">
+              <ion-icon name="logo-facebook"></ion-icon>
+            </a>
+          </li>
 
-            <li className="social-item">
-              <a href="#" className="social-link">
-                <ion-icon name="logo-twitter"></ion-icon>
-              </a>
-            </li>
+          <li className="social-item">
+            <a href="#" className="social-link">
+              <ion-icon name="logo-twitter"></ion-icon>
+            </a>
+          </li>
 
-            <li className="social-item">
-              <a href="#" className="social-link">
-                <ion-icon name="logo-instagram"></ion-icon>
-              </a>
-            </li>
-          </ul>
-        </div>
-      </aside>
+          <li className="social-item">
+            <a href="#" className="social-link">
+              <ion-icon name="logo-instagram"></ion-icon>
+            </a>
+          </li>
+        </ul>
+      </div>
+    </aside>
   )
 }
 

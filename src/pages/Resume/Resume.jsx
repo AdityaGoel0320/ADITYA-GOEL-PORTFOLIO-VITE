@@ -3,6 +3,8 @@ import { FaBookReader, FaRegBookmark } from "react-icons/fa";
 import TimelineItem from './TimelineItem';
 import SkillItem from './SkillItem';
 import { desc } from '../../assets/FrontEndUtils';
+import Skills from '../../components/Skills';
+import Socials from '../../components/Socials';
 
 const Resume = () => {
   return (
@@ -21,17 +23,18 @@ const Resume = () => {
           </div>
           <h3 className="h3">Internship Experience</h3>
         </div>
+        
         <ol className="timeline-list">
           <TimelineItem
-            title="Software and R & D"
+            title="Software and R & D at GEMS OF JCI"
             date="Sep 2023 - Dec 2023"
             description={desc}
           />
 
           <TimelineItem
             title="Comming Soon ...."
-            date=""
-            description=""
+            date="    "
+            description="        "
           />
 
         </ol>
@@ -60,7 +63,7 @@ const Resume = () => {
 
 
 
-      <div className="skill">
+      {/* <div className="skill">
         <h3 className="h3 skills-title">My skills</h3>
         <ul className="skills-list content-card">
           <SkillItem title="Web design" value={80} />
@@ -68,7 +71,12 @@ const Resume = () => {
           <SkillItem title="Branding" value={90} />
           <SkillItem title="WordPress" value={50} />
         </ul>
-      </div>
+      </div> */}
+
+
+
+<Skills/>
+      <Socials/>
     </section>
   );
 };

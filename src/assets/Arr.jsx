@@ -66,7 +66,7 @@ export const arr = [
     {
         name: "Express Js",
         // img: "https://jigarsable.vercel.app/_next/image?url=https%3A%2F%2Fimg.icons8.com%2Fios%2F150%2Fnull%2Fexpress-js.png&w=128&q=75",
-        img: "images/exp.jpg",
+        img: "images/expressjs.webp",
 
         type: "Backend",
 
@@ -114,8 +114,36 @@ export const arr = [
         // img: "https://jigarsable.vercel.app/_next/image?url=https%3A%2F%2Fimg.icons8.com%2Fcolor%2F144%2Fnull%2Fjava-coffee-cup-logo--v1.png&w=128&q=75",
         img: "images/java.webp",
 
-        type: "Other",
-    }, {
+        type: "Languages",
+    }
+    , 
+
+    {
+        name: "C",
+        // img: "https://jigarsable.vercel.app/_next/image?url=https%3A%2F%2Fimg.icons8.com%2Fcolor%2F144%2Fnull%2Fjava-coffee-cup-logo--v1.png&w=128&q=75",
+        img: "images/c.jpg",
+
+        type: "Languages",
+    } , 
+    {
+        name: "C++",
+        // img: "https://jigarsable.vercel.app/_next/image?url=https%3A%2F%2Fimg.icons8.com%2Fcolor%2F144%2Fnull%2Fjava-coffee-cup-logo--v1.png&w=128&q=75",
+        img: "images/c++.png",
+
+        type: "Languages",
+    } , 
+    {
+        name: "Python",
+        // img: "https://jigarsable.vercel.app/_next/image?url=https%3A%2F%2Fimg.icons8.com%2Fcolor%2F144%2Fnull%2Fjava-coffee-cup-logo--v1.png&w=128&q=75",
+        img: "images/python.jpg",
+
+        type: "Languages",
+    }
+    
+
+
+    , {
+
         name: "Vercel",
         // img: "https://res.cloudinary.com/lifecodes/image/upload/v1677508669/Portfolio/gd1ferzh1vbopo15yysy.svg",
         img: "images/vercel.svg",
