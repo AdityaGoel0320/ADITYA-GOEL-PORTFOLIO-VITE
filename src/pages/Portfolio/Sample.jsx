@@ -50,7 +50,7 @@ const Sample = ({ project }) => {
                         <a href={project.liveLink} target='_blank'>
 
 
-                            <img className='' src={project.image} alt={project.title} loading="lazy" />
+                            <img className='border-2 rounded-3xl shadow-2xl shadow-blue-500/20' src={project.image} alt={project.title} loading="lazy" />
                         </a>
 
                     </div>
@@ -59,7 +59,7 @@ const Sample = ({ project }) => {
                         <div className='flex justify-center items-center flex-col gap-4  '>
 
                             <h3 className="text-3xl font-bold  ">{project.title}</h3>
-                            <div className="flex justify-center items-center  text-xl gap-1 ">
+                            <div className="flex justify-center items-center  text-xl gap-4 ">
 
                                 <a href="https://drive.google.com/file/d/13csFfVIFXCmLTlQ-kjAdgbX2yUEs6vd3/view?usp=sharing" target="_blank">
 

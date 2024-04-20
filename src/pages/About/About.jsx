@@ -60,6 +60,7 @@ const About = () => {
   }, [])
   return (
     <article className="about  active" data-page="about">
+      <Socials />
 
       <header>
         <h2 className="h2 article-title">About me</h2>
@@ -78,7 +79,6 @@ const About = () => {
 
 
 
-      <Socials />
 
       {/* <!--
       - service
