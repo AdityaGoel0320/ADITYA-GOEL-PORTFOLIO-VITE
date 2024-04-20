@@ -2,7 +2,7 @@ import React from 'react';
 import { FaBookReader, FaRegBookmark } from "react-icons/fa";
 import TimelineItem from './TimelineItem';
 import SkillItem from './SkillItem';
-import { desc } from '../../assets/FrontEndUtils';
+import { HacktoberFestDesc, desc } from '../../assets/FrontEndUtils';
 import Skills from '../../components/Skills';
 import Socials from '../../components/Socials';
 
@@ -23,7 +23,7 @@ const Resume = () => {
           </div>
           <h3 className="h3">Internship Experience</h3>
         </div>
-        
+
         <ol className="timeline-list">
           <TimelineItem
             title="Software and R & D at GEMS OF JCI"
@@ -31,11 +31,18 @@ const Resume = () => {
             description={desc}
           />
 
+
           <TimelineItem
+            title="Completed Hacktoberfest 2022"
+            date="Oct 2022 - Nov 2022"
+            description={HacktoberFestDesc}
+          />
+
+          {/* <TimelineItem
             title="Comming Soon ...."
             date="    "
             description="        "
-          />
+          /> */}
 
         </ol>
       </div>
@@ -75,8 +82,8 @@ const Resume = () => {
 
 
 
-<Skills/>
-      <Socials/>
+      <Skills />
+      <Socials />
     </section>
   );
 };

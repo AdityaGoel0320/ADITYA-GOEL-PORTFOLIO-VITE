@@ -27,7 +27,24 @@ export const desc = (
         with <strong>ISO 27701</strong>. Collaborated cross-functionally for <strong>privacy-centric feature integration</strong>.
     </div>
 );
-;
+
+
+
+export const HacktoberFestDesc = (
+    <div>
+        <div className="linksCertificate">
+            <a href="https://drive.google.com/file/d/13csFfVIFXCmLTlQ-kjAdgbX2yUEs6vd3/view?usp=sharing" target="_blank">
+                <h1>Certificate <i class="fa-solid fa-arrow-up-right-from-square"></i></h1>
+            </a>
+            <a href="">
+                <h1>Project Report <i class="fa-solid fa-arrow-up-right-from-square"></i></h1>
+            </a>
+        </div>
+        Completed <strong>Hacktoberfest 2022</strong>, which served as my gateway into the world of <strong>open source</strong>. This journey expanded my knowledge about contributing in public, adopting <strong>good coding practices</strong>, and delving deep into <strong>GitHub workflows</strong>. Through Hacktoberfest, I established <strong>strong connections</strong> within the <strong>open-source community</strong>, gaining valuable insights into <strong>collaborative development</strong> and the importance of <strong>effective communication</strong>. Furthermore, I honed my skills in <strong>version control</strong>, <strong>pull requests</strong>, and <strong>issue tracking</strong>, solidifying my understanding of the <strong>open-source ecosystem</strong>. This experience was not just about coding but also about fostering a culture of <strong>inclusivity</strong>, <strong>sharing</strong>, and <strong>continuous learning</strong> within the <strong>developer community</strong>.
+    </div>
+
+);
+
 
 
 

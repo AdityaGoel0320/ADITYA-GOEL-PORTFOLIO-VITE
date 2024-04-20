@@ -1,6 +1,7 @@
 import { useState, useEffect } from 'react';
 import { FaRegEye } from 'react-icons/fa';
 import Accordion from '../../components/Accordian';
+import Sample from './Sample';
 
 const Portfolio = () => {
   // State to store project data and filtered projects
@@ -54,60 +55,14 @@ const Portfolio = () => {
       </ul> */}
 
       {/* Portfolio items */}
-      <section className="projects">
-        <ul className="project-list">
+      
+      <section className=" ">
+        <ul className=" flex justify-center items-center flex-col  gap-8 ">
           {filteredProjects.map(project => (
-            <li
-              className="project-item active"
-              data-filter-item
-              data-category={project.category}
-              key={project.id}
-            >
-             <div className="projectBox">
-             <a target="_blank" href={project.liveLink}>
-                <figure className="project-img">
-                  <div className="project-item-icon-box">
-                    {/* <FaRegEye /> */}
-                    <i class="fa-solid fa-arrow-up-right-from-square"></i>
-                  </div>
+            <>
+            <Sample project = {project}/>
+            </>
 
-                  <img src={project.image} alt={project.title} loading="lazy" />
-                </figure>
-              </a>
-              <h3 className="project-title">{project.title}</h3>
-              <div className="projectLinks">
-
-                <a href="https://drive.google.com/file/d/13csFfVIFXCmLTlQ-kjAdgbX2yUEs6vd3/view?usp=sharing" target="_blank">
-
-                  <h1>github <i class="fa-solid fa-arrow-up-right-from-square"></i></h1>
-                </a>
-                <a href={project.liveLink} target='_blank'>
-
-                  <h1>Live <i class="fa-solid fa-arrow-up-right-from-square"></i></h1>
-                </a>
-              </div>
-              {/* <p className="project-category">{project.category}</p> */}
-              <div className="project-category">
-                {Array.isArray(project.tech) ? (
-                  project.tech.map((tech, index) => (
-                    <span key={index} className="tech-item">
-                      {tech.trim()}
-                    </span>
-                  ))
-                ) : (
-
-                  <span className="tech-item">
-                    {project.tech}
-                  </span>
-                )}
-              </div>
-
-              <Accordion title="Some Key points">
-                {project.desc}
-              </Accordion>
-             </div>
-
-            </li>
           ))}
         </ul>
       </section>

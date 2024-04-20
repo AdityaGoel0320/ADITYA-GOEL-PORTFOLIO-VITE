@@ -12,14 +12,48 @@
   , 
   {
     "id": 2,
-    "title": "Chat Buddy - a new Era of Pizza booking",
+    "title": "OpenBlogs - A Place Share Thoughts",
     "category": "Web development",
     "image": "images/pizza-paradise.jpg",
-    "tech": ["MERN" , "TailwindCSS" ],
-    "github": "https://github.com/AdityaGoel0320/PIZZA_WEBSITE/",
+    "tech": ["MERN" ,  "Cloudinary" ],
+    "github": "https://github.com/AdityaGoel0320/OpenBlogs_A_Place_To_Share_Your_Thoughts_MERN_CLOUDINARY",
     "liveLink": "https://pizza-website-fawn.vercel.app/" , 
-    "desc" : "MERN stack pizza booking app with authentication, advance logics , sleek design, and MongoDB integration for scalability. " 
-  }
+    "desc" : " A platform designed to empower you to express yourself and connect with others made using MERN STACK with TailwindCSS and Cloudinary " 
+  }  ,
+
+
+  {
+    "id": 3,
+    "title": "TIC TAC TOE - The Retro OG Game",
+    "category": "Web development",
+    "image": "images/pizza-paradise.jpg",
+    "tech": ["JS" ,"HTML"  , "CSS" ],
+    "github": "https://github.com/AdityaGoel0320/OpenBlogs_A_Place_To_Share_Your_Thoughts_MERN_CLOUDINARY",
+    "liveLink": "https://pizza-website-fawn.vercel.app/" , 
+    "desc" : " A platform designed to empower you to express yourself and connect with others made using MERN STACK with TailwindCSS and Cloudinary " 
+  }  , 
+  {
+    "id": 4,
+    "title": "Dino World - A Place to help dino Win",
+    "category": "Web development",
+    "image": "images/pizza-paradise.jpg",
+    "tech": ["JS" ,"HTML"  , "CSS" ],
+    "github": "https://github.com/AdityaGoel0320/OpenBlogs_A_Place_To_Share_Your_Thoughts_MERN_CLOUDINARY",
+    "liveLink": "https://pizza-website-fawn.vercel.app/" , 
+    "desc" : " A platform designed to empower you to express yourself and connect with others made using MERN STACK with TailwindCSS and Cloudinary " 
+  } 
+ , 
+ {
+  "id": 5,
+  "title": "Food Arena -One Stop for Food Ordering (UI)",
+  "category": "Web development",
+  "image": "images/pizza-paradise.jpg",
+  "tech": ["JS" ,"HTML"  , "CSS" ],
+  "github": "https://github.com/AdityaGoel0320/OpenBlogs_A_Place_To_Share_Your_Thoughts_MERN_CLOUDINARY",
+  "liveLink": "https://pizza-website-fawn.vercel.app/" , 
+  "desc" : " A platform designed to empower you to express yourself and connect with others made using MERN STACK with TailwindCSS and Cloudinary " 
+} 
+
    
   ]
 
