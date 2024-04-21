@@ -61,7 +61,7 @@ const Sample = ({ project }) => {
                             <h3 className="text-3xl font-bold  ">{project.title}</h3>
                             <div className="flex justify-center items-center  text-xl gap-4 ">
 
-                                <a href="https://drive.google.com/file/d/13csFfVIFXCmLTlQ-kjAdgbX2yUEs6vd3/view?usp=sharing" target="_blank">
+                                <a href={project.github} target="_blank">
 
                                     <h1>github <i class="fa-solid fa-arrow-up-right-from-square"></i></h1>
                                 </a>

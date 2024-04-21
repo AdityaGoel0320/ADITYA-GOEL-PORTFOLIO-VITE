@@ -17,7 +17,7 @@
     "image": "images/pizza-paradise.jpg",
     "tech": ["MERN" ,  "Cloudinary" ],
     "github": "https://github.com/AdityaGoel0320/OpenBlogs_A_Place_To_Share_Your_Thoughts_MERN_CLOUDINARY",
-    "liveLink": "https://pizza-website-fawn.vercel.app/" , 
+    "liveLink": "https://open-blogs-a-place-to-share-your-thoughts-mern-cloudinary.vercel.app" , 
     "desc" : " A platform designed to empower you to express yourself and connect with others made using MERN STACK with TailwindCSS and Cloudinary " 
   }  ,
 
