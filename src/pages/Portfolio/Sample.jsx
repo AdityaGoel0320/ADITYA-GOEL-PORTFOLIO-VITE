@@ -38,7 +38,7 @@ const Sample = ({ project }) => {
         <>
 
             <li
-                className="  m-4  p-4  rounded-xl shadow-[0_20px_50px_rgba(8,_112,_184,_0.7)]  hover:shadow-[0_10px_20px_rgba(240,_46,_170,_0.7)]"
+                className="  m-1  p-4  rounded-xl shadow-[0_20px_50px_rgba(8,_112,_184,_0.7)]  hover:shadow-[0_10px_20px_rgba(240,_46,_170,_0.7)]"
                 data-filter-item
                 data-category={project.category}
                 key={project.id}
@@ -58,8 +58,8 @@ const Sample = ({ project }) => {
                     <p className=" text-white   sm:col-span-7 rounded  ">
                         <div className='flex justify-center items-center flex-col gap-4  '>
 
-                            <h3 className="text-3xl font-bold  ">{project.title}</h3>
-                            <div className="flex justify-center items-center  text-xl gap-4 ">
+                            <h3 className="text-2xl font-bold  ">{project.title}</h3>
+                            <div className="flex justify-center items-center  text-lg gap-4 ">
 
                                 <a href={project.github} target="_blank">
 
@@ -72,7 +72,7 @@ const Sample = ({ project }) => {
                             </div>
                             {/* <p className="project-category">{project.category}</p> */}
                             <div className=" m-1 p-1 flex justify-center items-center  gap-4 flex-wrap ">
-                                <h3 className='text-2xl font-bold '>Tech used :-</h3>
+                                <h3 className='text-xl font-bold '>Tech used :-</h3>
                                 {Array.isArray(project.tech) ? (
                                     project.tech.map((tech, index) => (
                                         <span key={index} className="  flex  flex-wrap justify-center items-center  border-2 border-yellow-300  rounded-xl p-1 ">

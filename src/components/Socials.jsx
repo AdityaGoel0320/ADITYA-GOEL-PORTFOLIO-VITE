@@ -36,20 +36,25 @@ const Socials = () => {
     return (
         <>
             <header>
-                <h2 className="h2 article-title">Connect with me</h2>
+                <h2 className="h2 mb-1  article-title">Connect with me</h2>
             </header>
             <div className="socials">
-                {SocialArr.map((x, index) => (
-                    <a key={index} href={x.link} target="_blank" rel="noopener noreferrer">
-                        {x.Image} {/* Render the icon directly */}
-                    </a>
-                ))}
+                <div className='socialsIcons'>
+
+                    {SocialArr.map((x, index) => (
+                        <a key={index} href={x.link} target="_blank" rel="noopener noreferrer">
+                            {x.Image} {/* Render the icon directly */}
+                        </a>
+                    ))}
+                </div>
                 <header>
                     <a href={Resume} target="_blank">
 
                         <h2 className="h3 Resume-btn ">Resume</h2>
                     </a>
                 </header>
+
+                
 
             </div>
 

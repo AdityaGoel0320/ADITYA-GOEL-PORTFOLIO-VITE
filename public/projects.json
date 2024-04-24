@@ -49,8 +49,8 @@
   "category": "Web development",
   "image": "images/pizza-paradise.jpg",
   "tech": ["JS" ,"HTML"  , "CSS" ],
-  "github": "https://github.com/AdityaGoel0320/OpenBlogs_A_Place_To_Share_Your_Thoughts_MERN_CLOUDINARY",
-  "liveLink": "https://pizza-website-fawn.vercel.app/" , 
+  "github": "https://github.com/AdityaGoel0320/Food-Arena-One-Stop-for-Food-Ordering-UI-" , 
+  "liveLink": "https://adityagoel0320.github.io/Food-Arena-One-Stop-for-Food-Ordering-UI-/" , 
   "desc" : " A platform designed to empower you to express yourself and connect with others made using MERN STACK with TailwindCSS and Cloudinary " 
 } 
 
