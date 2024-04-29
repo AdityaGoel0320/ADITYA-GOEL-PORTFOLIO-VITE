@@ -65,7 +65,7 @@ const Sample = ({ project }) => {
 
                                     <h1>github <i class="fa-solid fa-arrow-up-right-from-square"></i></h1>
                                 </a>
-                                <a href={project.liveLink} target='_blank'>
+                                <a href={project.livelink} target='_blank'>
 
                                     <h1>Live <i class="fa-solid fa-arrow-up-right-from-square"></i></h1>
                                 </a>
