@@ -1,64 +1,87 @@
 [
+
+  {
+    "id": 3,
+    "title": "ChatBuddy - OneStop place for personal interaction",
+    "category": "Web development",
+    "image": "images/ChatBuddy.png",
+    "tech": ["MERN", "SOCKET-IO", "CLOUDINARY"],
+    "github": "https://github.com/AdityaGoel0320/MERN-CHAT-APP-WITH-SOCKET-IO",
+    "livelink": "https://chat-buddy-with-socket-io.vercel.app/",
+    "desc": " Developed a full-stack web application, leveraging Cloudinary for robust image storage, Socket.io for real-time data transfer, and Redux for proper state management. Created production-ready code with an admin panel."
+  }
+   , 
   {
     "id": 1,
     "title": "Pizza Paradise - a new Era of Pizza booking",
     "category": "Web development",
     "image": "images/pizza-paradise.jpg",
-    "tech": ["MERN" , "TailwindCSS" ],
+    "tech": ["MERN", "TailwindCSS"],
     "github": "https://github.com/AdityaGoel0320/PIZZA_WEBSITE/",
-    "liveLink": "https://pizza-website-fawn.vercel.app/" , 
-    "desc" : "MERN stack pizza booking app with authentication, advance logics , sleek design, and MongoDB integration for scalability. "
-  }   
-  , 
+    "livelink": "https://pizza-website-fawn.vercel.app/",
+    "desc": "MERN stack pizza booking app with authentication, advance logics, sleek design, and MongoDB integration for scalability."
+  },
   {
     "id": 2,
     "title": "OpenBlogs - A Place Share Thoughts",
     "category": "Web development",
-    "image": "images/pizza-paradise.jpg",
-    "tech": ["MERN" ,  "Cloudinary" ],
+    "image": "images/OpenBlogs.png",
+    "tech": ["MERN", "Cloudinary"],
     "github": "https://github.com/AdityaGoel0320/OpenBlogs_A_Place_To_Share_Your_Thoughts_MERN_CLOUDINARY",
-    "liveLink": "https://open-blogs-a-place-to-share-your-thoughts-mern-cloudinary.vercel.app" , 
-    "desc" : " A platform designed to empower you to express yourself and connect with others made using MERN STACK with TailwindCSS and Cloudinary " 
-  }  ,
-
-
-  {
-    "id": 3,
-    "title": "TIC TAC TOE - The Retro OG Game",
-    "category": "Web development",
-    "image": "images/pizza-paradise.jpg",
-    "tech": ["JS" ,"HTML"  , "CSS" ],
-    "github": "https://github.com/AdityaGoel0320/OpenBlogs_A_Place_To_Share_Your_Thoughts_MERN_CLOUDINARY",
-    "liveLink": "https://pizza-website-fawn.vercel.app/" , 
-    "desc" : " A platform designed to empower you to express yourself and connect with others made using MERN STACK with TailwindCSS and Cloudinary " 
-  }  , 
-  {
-    "id": 4,
-    "title": "Dino World - A Place to help dino Win",
-    "category": "Web development",
-    "image": "images/pizza-paradise.jpg",
-    "tech": ["JS" ,"HTML"  , "CSS" ],
-    "github": "https://github.com/AdityaGoel0320/OpenBlogs_A_Place_To_Share_Your_Thoughts_MERN_CLOUDINARY",
-    "liveLink": "https://pizza-website-fawn.vercel.app/" , 
-    "desc" : " A platform designed to empower you to express yourself and connect with others made using MERN STACK with TailwindCSS and Cloudinary " 
-  } 
- , 
- {
-  "id": 5,
-  "title": "Food Arena -One Stop for Food Ordering (UI)",
-  "category": "Web development",
-  "image": "images/pizza-paradise.jpg",
-  "tech": ["JS" ,"HTML"  , "CSS" ],
-  "github": "https://github.com/AdityaGoel0320/Food-Arena-One-Stop-for-Food-Ordering-UI-" , 
-  "liveLink": "https://adityagoel0320.github.io/Food-Arena-One-Stop-for-Food-Ordering-UI-/" , 
-  "desc" : " A platform designed to empower you to express yourself and connect with others made using MERN STACK with TailwindCSS and Cloudinary " 
-} 
-
-   
-  ]
-
-
-
-
-
+    "livelink": "https://open-blogs-a-place-to-share-your-thoughts-mern-cloudinary.vercel.app",
+    "desc": "A platform designed to empower you to express yourself and connect with others made using MERN STACK with TailwindCSS and Cloudinary"
+  },
  
+  
+  
+  {
+    "title": "ExpeditionXplorer.com",
+    "image": "./images/ExpeditionXplorer.png",
+    "github": "https://github.com/AdityaGoel0320/ExpeditionXplorer-Reactjs",
+    "livelink": "https://expedition-xplorer-reactjs.vercel.app/",
+    "desc": "This website showcases my ReactJS skills in managing API-based data and state management. It also demonstrates my ability to design a real-life travel website using CSS. The result is a beautifully crafted product that I'm proud of.",
+    "tech": ["ReactJS", "JavaScript", "HTML", "CSS", "TailWindCss"]
+  },
+  {
+    "title": "Reactjs Advanced Cart System",
+    "image": "./images/cart.png",
+    "github": "https://github.com/AdityaGoel0320/Reactjs-Advanced-Cart-System",
+    "livelink": "https://reactjs-advanced-cart.vercel.app/",
+    "desc": "This is a highly realistic cart system. In this project, I have utilized advanced state management techniques to create a scalable cart and make all data dynamic. All products are fetched using API data. I have also employed various hooks for advanced state management, such as useEffect(), useContext(), useState(), and many other JavaScript concepts.",
+    "tech": ["ReactJS", "JavaScript", "HTML", "CSS"]
+  },
+  {
+    "title": "Dynamic Pizza Paradise: A React-Tailwind Delight !",
+    "image": "./images/pizza.png",
+    "github": "https://github.com/AdityaGoel0320/Pizza-Store-ReactJs",
+    "livelink": "https://pizza-store-react-js.vercel.app/",
+    "desc": "Developed a dynamic and interactive Pizza Shop web using React.js,Tailwind CSS, HTML, and CSS. Utilized React hooks(useState, useEffect)and JavaScript functions(filter(), map()) forefficient data handling and enhanced userexperience.",
+    "tech": ["ReactJS", "JavaScript", "HTML", "CSS", "TailWindCss"]
+  },
+  {
+    "title": "Task Manager Pro: Task Mastery with React Magic!",
+    "image": "./images/todo.png",
+    "github": "https://github.com/AdityaGoel0320/ReactJs-Todo-App",
+    "livelink": "https://react-js-todo-app-one.vercel.app/",
+    "desc": "Created a Task Manager application with React.js, Tailwind CSS, HTML, and CSS, featuring local storage for data storage Utilized React hooks for managing state and building a responsive user interface Nostalgia Arcade: Relive Classics in Modern Style!",
+    "tech": ["ReactJS", "JavaScript", "HTML", "CSS"]
+  },
+  {
+    "title": "Nostalgia Arcade: Relive Classics in Modern Style!",
+    "image": "./images/game.png",
+    "github": "https://github.com/AdityaGoel0320/Game_center_Javascript",
+    "livelink": "https://game-center-javascript.vercel.app/",
+    "desc": "Transform your passion for gaming into a mesmerising web experience with our Game Center app, where classic games meet modern JavaScript mastery. Engage users with dynamic gameplay, responsive design, and a touch of nostalgia.🎮🌟",
+    "tech": ["JavaScript", "HTML", "CSS"]
+  } , 
+  {
+    "id": 11,
+    "title": "Food Arena -One Stop for Food Ordering (UI)",
+    "category": "Web development",
+    "image": "images/FoodArena.png",
+    "tech": ["JS", "HTML", "CSS"],
+    "github": "https://github.com/AdityaGoel0320/Food-Arena-One-Stop-for-Food-Ordering-UI-",
+    "livelink": "https://adityagoel0320.github.io/Food-Arena-One-Stop-for-Food-Ordering-UI-/",
+    "desc": "A platform designed to empower you to express yourself and connect with others made using MERN STACK with TailwindCSS and Cloudinary"
+  }
+]
