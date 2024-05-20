@@ -58,8 +58,8 @@ const Sample = ({ project }) => {
                     <p className=" text-white   sm:col-span-7 rounded  ">
                         <div className='flex justify-center items-center flex-col gap-4  '>
 
-                            <h3 className="text-2xl font-bold  ">{project.title}</h3>
-                            <div className="flex justify-center items-center  text-lg gap-4 ">
+                            <h3 className="text-xl font-bold  ">{project.title}</h3>
+                            <div className="flex justify-center items-center  text-md gap-4 ">
 
                                 <a href={project.github} target="_blank">
 
@@ -71,11 +71,11 @@ const Sample = ({ project }) => {
                                 </a>
                             </div>
                             {/* <p className="project-category">{project.category}</p> */}
-                            <div className=" m-1 p-1 flex justify-center items-center  gap-4 flex-wrap ">
-                                <h3 className='text-xl font-bold '>Tech used :-</h3>
+                            <div className="     flex justify-center items-center  gap-1 flex-wrap ">
+                                <h3 className='text-md font-bold '>Tech used :-</h3>
                                 {Array.isArray(project.tech) ? (
                                     project.tech.map((tech, index) => (
-                                        <span key={index} className="  flex  flex-wrap justify-center items-center  border-2 border-yellow-300  rounded-xl p-1 ">
+                                        <span key={index} className="  flex  flex-wrap justify-center items-center  border-2 border-yellow-300  rounded-xl p-1 text-xs hover:bg-yellow-500 hover:text-black  ">
                                             {tech.trim()}
                                         </span>
                                     ))
@@ -87,8 +87,8 @@ const Sample = ({ project }) => {
                                 )}
                             </div>
 
-                            <Accordion className="flex justify-center items-center" title="Some Key points">
-                                <p className='text-xl'>
+                            <Accordion className="flex justify-center items-center text-md" title="Some Key points">
+                                <p className='text-xs'>
                                     {project.desc}
                                 </p>
                             </Accordion>

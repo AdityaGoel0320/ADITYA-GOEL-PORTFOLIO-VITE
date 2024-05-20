@@ -36,7 +36,7 @@ const Portfolio = () => {
   return (
     <section className="portfolio" data-page="portfolio">
       <header>
-        <h2 className="h2 article-title">Projects</h2>
+        <h2 className="h2 font-bold uppercase article-title">Projects</h2>
       </header>
 
       {/* Filter buttons */}
