@@ -7,6 +7,7 @@ const ProjectArr = [
         link: "https://expedition-xplorer-reactjs.vercel.app/",
         desc: "This website showcases my ReactJS skills in managing API-based data and state management. It also demonstrates my ability to design a real-life travel website using CSS. The result is a beautifully crafted product that I'm proud of. ",
         techUsed: ["ReactJS", "JavaScript", "HTML", "CSS" , "TailWindCss"],
+        
     },
     {
         name: "Reactjs Advanced Cart System",

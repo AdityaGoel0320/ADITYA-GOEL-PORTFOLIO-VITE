@@ -23,15 +23,16 @@ const Portfolio = () => {
   }, []);
 
   // Function to handle category filter selection
-  const handleFilterClick = (category) => {
-    setSelectedCategory(category);
-    if (category === 'All') {
-      setFilteredProjects(projects);
-    } else {
-      const filtered = projects.filter(project => project.category === category);
-      setFilteredProjects(filtered);
-    }
-  };
+  
+  const handleFilterClick = (techName) => {
+  setSelectedCategory(techName);
+  if (techName === 'All') {
+    setFilteredProjects(projects);
+  } else {
+    const filtered = projects.filter(project => project.tech.includes(techName));
+    setFilteredProjects(filtered);
+  }
+};
 
   return (
     <section className="portfolio" data-page="portfolio">
@@ -40,8 +41,8 @@ const Portfolio = () => {
       </header>
 
       {/* Filter buttons */}
-      {/* <ul className="filter-list">
-        {['All', 'Front-End', 'Back-End', 'Mern-Stack'].map(category => (
+      <ul className="filter-list">
+        {['All', 'MERN', 'Reactjs', 'Nodejs'  , 'FireBase' , 'TailwindCSS' , 'Chakra-UI' ,  'HTML' , 'CSS'  ].map(category => (
           <li className="filter-item" key={category}>
             <button
               className={category === selectedCategory ? 'active' : ''}
@@ -52,7 +53,7 @@ const Portfolio = () => {
             </button>
           </li>
         ))}
-      </ul> */}
+      </ul>
 
       {/* Portfolio items */}
       

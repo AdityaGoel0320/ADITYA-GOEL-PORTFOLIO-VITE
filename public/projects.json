@@ -5,7 +5,7 @@
     "title": "ChatBuddy - OneStop place for personal interaction",
     "category": "Web development",
     "image": "images/ChatBuddy.png",
-    "tech": ["MERN", "SOCKET-IO", "CLOUDINARY"],
+    "tech": ["MERN","Reactjs","Nodejs" , "SOCKET-IO", "CLOUDINARY" , "TailwindCSS"],
     "github": "https://github.com/AdityaGoel0320/MERN-CHAT-APP-WITH-SOCKET-IO",
     "livelink": "https://chat-buddy-with-socket-io.vercel.app/",
     "desc": " Developed a full-stack web application, leveraging Cloudinary for robust image storage, Socket.io for real-time data transfer, and Redux for proper state management. Created production-ready code with an admin panel."
@@ -16,7 +16,7 @@
     "title": "Pizza Paradise - a new Era of Pizza booking",
     "category": "Web development",
     "image": "images/pizza-paradise.jpg",
-    "tech": ["MERN", "TailwindCSS"],
+    "tech": ["MERN","Reactjs","Nodejs" ,  "TailwindCSS"],
     "github": "https://github.com/AdityaGoel0320/PIZZA_WEBSITE/",
     "livelink": "https://pizza-website-fawn.vercel.app/",
     "desc": "MERN stack pizza booking app with authentication, advance logics, sleek design, and MongoDB integration for scalability."
@@ -26,13 +26,20 @@
     "title": "OpenBlogs - A Place Share Thoughts",
     "category": "Web development",
     "image": "images/OpenBlogs.png",
-    "tech": ["MERN", "Cloudinary"],
+    "tech": ["MERN","Reactjs","Nodejs" , "Cloudinary" , "TailwindCSS"],
     "github": "https://github.com/AdityaGoel0320/OpenBlogs_A_Place_To_Share_Your_Thoughts_MERN_CLOUDINARY",
     "livelink": "https://open-blogs-a-place-to-share-your-thoughts-mern-cloudinary.vercel.app",
     "desc": "A platform designed to empower you to express yourself and connect with others made using MERN STACK with TailwindCSS and Cloudinary"
   },
  
-  
+  {
+    "title": "FilmSphere-The-place-to-become-more-energetic ",
+    "image": "./images/FilmSphere.png",
+    "github": "https://github.com/AdityaGoel0320/FilmSphere-The-place-to-become-more-energetic",
+    "livelink": "https://film-sphere.vercel.app/",
+    "desc": "FilmSphere is a dynamic platform powered by Chakra, ReactJS, Firebase, and TMDB API. It offers authentication, authorization, and a watchlist feature, utilizing Firebase database and dynamic routing for a personalized experience. ",
+    "tech": ["ReactJS", "FireBase", "Firebase-Database", "TMDB-API", "Chakra-UI" , "TailwindCSS"]
+  },
   
   {
     "title": "ExpeditionXplorer.com",
@@ -40,7 +47,7 @@
     "github": "https://github.com/AdityaGoel0320/ExpeditionXplorer-Reactjs",
     "livelink": "https://expedition-xplorer-reactjs.vercel.app/",
     "desc": "This website showcases my ReactJS skills in managing API-based data and state management. It also demonstrates my ability to design a real-life travel website using CSS. The result is a beautifully crafted product that I'm proud of.",
-    "tech": ["ReactJS", "JavaScript", "HTML", "CSS", "TailWindCss"]
+    "tech": ["ReactJS", "JavaScript", "TailwindCss"]
   },
   {
     "title": "Reactjs Advanced Cart System",
@@ -48,7 +55,7 @@
     "github": "https://github.com/AdityaGoel0320/Reactjs-Advanced-Cart-System",
     "livelink": "https://reactjs-advanced-cart.vercel.app/",
     "desc": "This is a highly realistic cart system. In this project, I have utilized advanced state management techniques to create a scalable cart and make all data dynamic. All products are fetched using API data. I have also employed various hooks for advanced state management, such as useEffect(), useContext(), useState(), and many other JavaScript concepts.",
-    "tech": ["ReactJS", "JavaScript", "HTML", "CSS"]
+    "tech": ["ReactJS", "JavaScript"]
   },
   {
     "title": "Dynamic Pizza Paradise: A React-Tailwind Delight !",
@@ -56,7 +63,7 @@
     "github": "https://github.com/AdityaGoel0320/Pizza-Store-ReactJs",
     "livelink": "https://pizza-store-react-js.vercel.app/",
     "desc": "Developed a dynamic and interactive Pizza Shop web using React.js,Tailwind CSS, HTML, and CSS. Utilized React hooks(useState, useEffect)and JavaScript functions(filter(), map()) forefficient data handling and enhanced userexperience.",
-    "tech": ["ReactJS", "JavaScript", "HTML", "CSS", "TailWindCss"]
+    "tech": ["ReactJS", "JavaScript",  "TailwindCSS"]
   },
   {
     "title": "Task Manager Pro: Task Mastery with React Magic!",
@@ -64,7 +71,7 @@
     "github": "https://github.com/AdityaGoel0320/ReactJs-Todo-App",
     "livelink": "https://react-js-todo-app-one.vercel.app/",
     "desc": "Created a Task Manager application with React.js, Tailwind CSS, HTML, and CSS, featuring local storage for data storage Utilized React hooks for managing state and building a responsive user interface Nostalgia Arcade: Relive Classics in Modern Style!",
-    "tech": ["ReactJS", "JavaScript", "HTML", "CSS"]
+    "tech": ["ReactJS", "JavaScript", "CSS"]
   },
   {
     "title": "Nostalgia Arcade: Relive Classics in Modern Style!",
@@ -77,7 +84,7 @@
   {
     "id": 11,
     "title": "Food Arena -One Stop for Food Ordering (UI)",
-    "category": "Web development",
+    "category": "MERN",
     "image": "images/FoodArena.png",
     "tech": ["JS", "HTML", "CSS"],
     "github": "https://github.com/AdityaGoel0320/Food-Arena-One-Stop-for-Food-Ordering-UI-",
