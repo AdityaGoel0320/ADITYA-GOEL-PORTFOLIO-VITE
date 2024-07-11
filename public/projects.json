@@ -1,6 +1,16 @@
 [
 
   {
+    "id": 1,
+    "title": "Shopp.my - One Stop place for your ecommerce needs",
+    "category": "Web development",
+    "image": "images/ShoppMy.jpg",
+    "tech": ["MERN","TypeScript","FireBase" , "Stripe"],
+    "github": "https://github.com/AdityaGoel0320/Advance_Ecommerce_App_Reactjs",
+    "livelink": "https://shopp-my-frontend.vercel.app",
+    "desc": " Shopp.my is a full-featured e-commerce web application to showcase my full stack development skills with advance techniques having many features like Large Product Database, Real-Time Filtering and Searching System , Payment Integration etc  "
+  } , 
+  {
     "id": 3,
     "title": "ChatBuddy - OneStop place for personal interaction",
     "category": "Web development",
