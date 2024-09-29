@@ -37,8 +37,11 @@ const Sample = ({ project }) => {
         // <div>Sample</div>
         <>
 
+
             <li
-                className="  m-1  p-4  rounded-xl shadow-[0_20px_50px_rgba(8,_112,_184,_0.7)]  hover:shadow-[0_10px_20px_rgba(240,_46,_170,_0.7)]"
+                // className="  m-1  p-4  rounded-xl shadow-2xl shadow-blue-500/20  hover:shadow-[0_20px_50px_rgba(8,_112,_184,_0.7)]  bg-white dark:bg-slate-900 text-black dark:text-white border-neutral-200 dark:border-slate-800"
+                className="m-1 p-4 rounded-xl hover:backdrop-blur-3xl shadow-2xl shadow-blue-500/20 transition-transform duration-300 hover:shadow-[0_30px_70px_rgba(8,_112,_184,_0.7)] hover:scale-105    bg-white dark:bg-slate-900 text-black dark:text-white border-neutral-200 dark:border-slate-800"
+
                 data-filter-item
                 data-category={project.category}
                 key={project.id}

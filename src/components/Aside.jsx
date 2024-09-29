@@ -35,13 +35,13 @@ const Aside = () => {
   return (
     <aside className="sidebar">
       <div className="sidebar-info">
-        <figure className="avatar-box">
+        {/* <figure className="avatar-box">
           <img
             src={"/images/profile.png"}
             alt="Aditya Goel"
             width="80"
           />
-        </figure>
+        </figure> */}
 
         <div className="info-content">
           <h1 className="name" title="Richard hanrick">
@@ -57,7 +57,7 @@ const Aside = () => {
               ))}
               <a href={Resume} target="_blank">
 
-                <h2 className="text-xs p-1  border-2 border-yellow-500 rounded-md hover:text-white hover:bg-black  hover:text-lg    ">Resume</h2>
+                <h2 className="text-xs p-1  border-2 border-yellow-500 rounded-md hover:text-white hover:bg-black   ">Resume</h2>
               </a>
 
             </div>
@@ -86,7 +86,13 @@ const Aside = () => {
             </div>
           </li>
 
-          <li className="contact-item">
+
+
+
+
+
+
+          {/* <li className="contact-item">
             <div className="icon-box">
               <GiMailbox />
 
@@ -99,7 +105,7 @@ const Aside = () => {
                 Resume <i class="fa-solid fa-arrow-up-right-from-square"></i>
               </a>
             </div>
-          </li>
+          </li> */}
 
 
           <li className="contact-item">

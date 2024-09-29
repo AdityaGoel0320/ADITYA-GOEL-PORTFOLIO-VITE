@@ -2211,3 +2211,22 @@ strong {
   flex-direction: column;
   gap: 0.5rem;
 }
+
+
+.animated-text {
+  background: linear-gradient(90deg, yellow, #0000ff); /* Gradient from red to blue */
+  background-size: 200% auto; /* Double the size to allow the animation */
+  background-clip: text;
+  -webkit-background-clip: text;
+  color: transparent;
+  transition: background-position 0.05s ease-in-out; /* Animate the background */
+}
+
+.animated-text:hover {
+  background-position: right center; /* On hover, move the background to the right */
+}
+
+
+
+
+

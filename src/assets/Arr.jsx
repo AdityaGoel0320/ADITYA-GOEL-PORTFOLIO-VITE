@@ -87,13 +87,13 @@ export const arr = [
         type: "Backend",
 
     },
-    {
-        name: "Googling",
-        // img: "https://jigarsable.vercel.app/_next/image?url=https%3A%2F%2Fimg.icons8.com%2Fcolor%2F144%2Fnull%2Fgoogle-logo.png&w=128&q=75",
-        img: "images/google.webp",
+    // {
+    //     name: "Googling",
+    //     // img: "https://jigarsable.vercel.app/_next/image?url=https%3A%2F%2Fimg.icons8.com%2Fcolor%2F144%2Fnull%2Fgoogle-logo.png&w=128&q=75",
+    //     img: "images/google.webp",
 
-        type: "Other",
-    },
+    //     type: "Other",
+    // },
     {
         name: "GitHub",
         // img: "https://jigarsable.vercel.app/_next/image?url=https%3A%2F%2Fimg.icons8.com%2Fmaterial-outlined%2F96%2Fnull%2Fgithub.png&w=128&q=75",
@@ -146,7 +146,7 @@ export const arr = [
 
         name: "Vercel",
         // img: "https://res.cloudinary.com/lifecodes/image/upload/v1677508669/Portfolio/gd1ferzh1vbopo15yysy.svg",
-        img: "images/vercel.svg",
+        img: "images/vercel.png",
 
         type: "Other",
     }, {

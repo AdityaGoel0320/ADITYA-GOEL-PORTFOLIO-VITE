@@ -28,6 +28,46 @@ export const desc = (
     </div>
 );
 
+export const mlDesc = (
+    <div>
+        <div className="linksCertificate">
+            <a href="https://drive.google.com/file/d/1pBM0u4Xwded1EbTzKiMK0IsMNogEHjcW/view?usp=sharing" target="_blank" >
+                <h1>Certificate <i className="fa-solid fa-arrow-up-right-from-square"></i></h1>
+            </a>
+        </div>
+        Worked on <strong>machine learning projects</strong> using <strong>Scikit-learn</strong> and <strong>Jupyter Notebooks</strong>.
+        Applied algorithms like <strong>K-Means Clustering</strong> and <strong>Linear Regression</strong> to analyze and interpret data.
+        Enhanced <strong>data cleaning</strong> and streamlined <strong>pipelines</strong> with <strong>Pandas</strong> and <strong>NumPy</strong> for efficient data manipulation and analysis.
+        Focused on improving <strong>model accuracy</strong> and <strong>data preprocessing</strong> techniques to optimize predictive results.
+    </div>
+);
+
+
+
+
+
+
+
+
+
+
+
+export const descOfDigitalShiftInterShip = (
+    <div>
+        <div className="linksCertificate">
+            <a href="https://drive.google.com/file/d/1tyI7JGjvUqLi0XxAraDb_dedJhVb_Meq/view?usp=sharing" target="_blank">
+                <h1>Certificate <i class="fa-solid fa-arrow-up-right-from-square"></i></h1>
+            </a>
+            {/* <a href="">
+
+                <h1>Project Report <i class="fa-solid fa-arrow-up-right-from-square"></i></h1>
+            </a> */}
+        </div>
+        Developed a website that used <strong>Python-based AI models</strong> to generate <strong>SEO-optimized blogs</strong> from user inputs.
+        Managed full-stack development, including <strong>frontend</strong>, <strong>backend integration</strong>, <strong>AWS deployment</strong>, and <strong>Cloudinary</strong> for media storage.
+        Created <strong>API documentation with Swagger</strong> and automated content generation with <strong>AI models</strong>.
+    </div>
+);
 
 
 export const HacktoberFestDesc = (

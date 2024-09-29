@@ -2,7 +2,7 @@ import React from 'react';
 import { FaBookReader, FaRegBookmark } from "react-icons/fa";
 import TimelineItem from './TimelineItem';
 import SkillItem from './SkillItem';
-import { HacktoberFestDesc, desc } from '../../assets/FrontEndUtils';
+import { HacktoberFestDesc, desc, descOfDigitalShiftInterShip, mlDesc } from '../../assets/FrontEndUtils';
 import Skills from '../../components/Skills';
 import Socials from '../../components/Socials';
 
@@ -25,18 +25,36 @@ const Resume = () => {
         </div>
 
         <ol className="timeline-list">
+
+
+          <TimelineItem
+            title="Full Stack Web Developer at Digital Shift Pvt Ltd"
+            date="June 2024 - Sep 2024"
+            description={descOfDigitalShiftInterShip}
+          />
+
+          <br />
+          <TimelineItem
+            title="Data Science Intern at Acmegrade"
+            date="May 2024 - June 2024"
+            description={mlDesc}
+          />
+          <br />
+
           <TimelineItem
             title="Software and R & D at GEMS OF JCI"
             date="Sep 2023 - Dec 2023"
             description={desc}
           />
 
+          <br />
 
           <TimelineItem
             title="Completed Hacktoberfest 2022"
             date="Oct 2022 - Nov 2022"
             description={HacktoberFestDesc}
           />
+          <br />
 
           {/* <TimelineItem
             title="Comming Soon ...."
