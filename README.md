@@ -13,4 +13,4 @@
 **Technologies Used:**
 - Reactjs , JavaScript , TailwincdCSS
 
-**Demo:** https://aditya-goel-portfolio.vercel.app
+**Demo:** https://aditya-goel.vercel.app/
